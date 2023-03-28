@@ -8,11 +8,11 @@ from flask_cors import CORS
 import pymysql
 
 # MariaDB connection 정보 입력
-host = 'j8d102.p.ssafy.io'
-port = 3306
-user = 'root'
-password = 'wjdtlsdjqtwh102'
-database = 'd102'
+host = ""
+port = ""
+user = ""
+password = ""
+database = ""
 
 # MariaDB 연결
 conn = pymysql.connect(host=host, port=port, user=user, password=password, database=database)
